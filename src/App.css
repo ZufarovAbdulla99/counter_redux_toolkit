@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: large;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* button {
+  color: white;
+} */
+
+.btns {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  outline-color: red;
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  /* outline: red; */
+}
+
+.plus {
+  background-color: green;
+  border: 2px solid black;
+}
+
+.plus:hover, .plus:focus, .plus:focus-visible {
+  border: 2px solid rgb(68, 226, 68);
+  outline: none;
+}
+
+.reset {
+  background-color: gray;
+  border: 2px solid black;
+}
+
+.reset:hover, .reset:focus, .reset:focus-visible {
+  border: 2px solid rgb(117, 109, 109);
+  outline: none;
+}
+
+.minus {
+  background-color: red;
+  border: 2px solid black;
+}
+
+.minus:hover, .minus:focus, .minus:focus-visible {
+  border: 2px solid rgb(187, 77, 77);
+  outline: none;
+}
